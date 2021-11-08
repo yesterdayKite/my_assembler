@@ -1,7 +1,8 @@
 # my_compiler
 
  SIC/XE 머신을 위한 간단한 Assembler 프로그램
- 임의의 symbol table과 insturction table을 참조한다.
+ 명령은 input.txt에 저장되어있으며, 어셈블러가 변환한 기계어를 output.txt에 저장한다.
+ 임의의 symbol table과 literal table을 참조한다.
  
  ### instruction example
 COPY	START	0	COPY FILE FROM IN TO OUTPUT
